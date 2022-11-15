@@ -9,7 +9,6 @@ const App = () => {
   const handleIncrease = () => {
     setCount ((preValue) => {
       return preValue + 1;
-    
       
     })
     
@@ -21,12 +20,10 @@ const App = () => {
     })
 
   }
-
-
   
   return (
     <>
-    
+  
     <h1>{count}</h1>
     <button onClick={handleIncrease}>Increase</button>
     <button onClick={handleDecrease}>Decrease</button>
